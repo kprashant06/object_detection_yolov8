@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+
+
+nc: 2
+names: ['helmet', 'jacket']
+
+roboflow:
+  workspace: public-plan-zt5st
+  project: object_detection-bmehm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/public-plan-zt5st/object_detection-bmehm/dataset/2
